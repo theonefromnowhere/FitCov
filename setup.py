@@ -10,7 +10,7 @@ package_basename = 'FitCov'
 
 sys.path.insert(0, os.path.join(package_basedir, package_basename))
 
-version = _version.__version__
+
 
 if __name__ == '__main__':
     setuptools.setup(
